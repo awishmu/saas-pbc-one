@@ -1,9 +1,17 @@
 {
-  "name": "pbc918",
+  "name": "saas-pbc-one",
   "version": "1.0.0",
-  "description": "",
+  "description": "landing page for pbc saas",
+  "homepage": "https://github.com/awishmu/saas-pbc-one#readme",
+  "bugs": {
+    "url": "https://github.com/awishmu/saas-pbc-one/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awishmu/saas-pbc-one.git"
+  },
   "license": "ISC",
-  "author": "",
+  "author": "awish",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
@@ -18,24 +26,24 @@
     "@radix-ui/react-label": "^2.1.7",
     "@radix-ui/react-select": "^2.2.6",
     "@radix-ui/react-slot": "^1.2.3",
-    "@tailwindcss/postcss": "^4.1.13",
+    "@tailwindcss/postcss": "^4.1.14",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.544.0",
     "mongodb": "^6.18.0",
-    "next": "^15.5.3",
+    "next": "^15.5.4",
     "postcss": "^8.5.6",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "react-hook-form": "^7.63.0",
     "tailwind-merge": "^3.3.1",
-    "tailwindcss": "^4.1.13",
-    "tw-animate-css": "^1.3.8",
+    "tailwindcss": "^4.1.14",
     "zod": "^4.1.9"
   },
   "devDependencies": {
     "@types/node": "24.5.2",
     "@types/react": "19.1.13",
+    "tw-animate-css": "^1.4.0",
     "typescript": "5.9.2"
   }
 }

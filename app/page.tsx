@@ -5,7 +5,7 @@ import vercelLogotypeLight from "@/assets/vercel-logotype-light.svg";
 import vercelLogotypeDark from "@/assets/vercel-logotype-dark.svg";
 import Link from "next/link";
 import { ArrowRight, FileText, LogIn } from "lucide-react";
-import { dbConnectionStatus } from "@/db/dbConnect";
+// import { dbConnectionStatus } from "@/db/dbConnect";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
@@ -36,7 +36,7 @@ const DATA = {
 };
 
 export default async function Home() {
-  const result = await dbConnectionStatus();
+// const result = await dbConnectionStatus();
   return (
     <div className="flex min-h-screen flex-col">
       <div className="mx-auto flex w-full max-w-md flex-1 flex-col px-5 md:max-w-lg md:px-0 lg:max-w-xl">
@@ -126,14 +126,10 @@ export default async function Home() {
               })}
             </ul>
             <Badge
-              variant={result === "Database connected" ? "default" : "destructive"}
-              className={`rounded-full px-3 py-1.5 text-xs font-semibold ${
-                result === "Database connected"
-                  ? "border-[#00ED64]/20 bg-[#00ED64]/10 text-[#00684A] dark:bg-[#00ED64]/10 dark:text-[#00ED64]"
-                  : "border-red-500/20 bg-red-500/10 text-red-500 dark:text-red-500"
-              }`}
+              variant="destructive"
+              className={`rounded-full px-3 py-1.5 text-xs font-semibold "border-red-500/20 bg-red-500/10 text-red-500 dark:text-red-500"`}
             >
-              {result}
+              {'result'}
             </Badge>
           </footer>
       </div>

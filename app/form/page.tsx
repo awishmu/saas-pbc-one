@@ -5,7 +5,7 @@ import Form from 'next/form';
 export default function Page() {
 	const [isLoading, setIsLoading] = useState<boolean>(false)
 	
-	async function onSubmit(event) {
+	async function onSubmit(event: FormData) {
 		event.preventDefault()
 		setIsLoading(true)
 		
@@ -36,7 +36,7 @@ export default function Page() {
 	}
 	
 	return (
-		<Form onSubmit={onSubmit}>
+		<Form action={onSubmit}>
 			<input type="text" name="name" />
 			<input type="text" name="email" />
 			<button type="submit" disabled={isLoading}>
@@ -47,6 +47,7 @@ export default function Page() {
 	)
 
 }
+
 
 
 

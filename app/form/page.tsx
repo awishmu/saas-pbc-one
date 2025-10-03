@@ -1,5 +1,5 @@
 'use client'
-import React, { useState, FromEvent } from 'react';
+import React, { useState, FormEvent } from 'react';
 import Form from 'next/form';
 
 export default function Page() {
@@ -47,3 +47,4 @@ export default function Page() {
 	)
 
 }
+

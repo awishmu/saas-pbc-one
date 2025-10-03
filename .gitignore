@@ -39,4 +39,4 @@ yarn-error.log*
 next-env.d.ts
 
 # files
-.next.config.ts
+next.config.ts

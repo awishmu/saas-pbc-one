@@ -5,7 +5,7 @@ import Form from 'next/form';
 export default function Page() {
 	const [isLoading, setIsLoading] = useState<boolean>(false)
 	
-	async function onSubmit(event: React.FormEvent<HTMLFormElement>) {
+	async function onSubmit: React.FormEventHandler<HTMLFormElement>(event: React.FormEvent<HTMLFormElement>) {
 		event.preventDefault()
 		setIsLoading(true)
 		
@@ -47,4 +47,5 @@ export default function Page() {
 	)
 
 }
+
 

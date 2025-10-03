@@ -36,7 +36,7 @@ export default function Page() {
 	}
 	
 	return (
-		<Form action={onSubmit}>
+		<Form onSubmit={onSubmit}>
 			<input type="text" name="name" />
 			<input type="text" name="email" />
 			<button type="submit" disabled={isLoading}>
@@ -47,6 +47,7 @@ export default function Page() {
 	)
 
 }
+
 
 
 

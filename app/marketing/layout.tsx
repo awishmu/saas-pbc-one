@@ -1,18 +1,19 @@
 import * as React from "react"
 
-// import { Footer } from "@/components/nav/footer"
-// import { Header } from "@/componentns/nav/header";
+// import { NavBar } from "@/components/layout/navbar"
+// import { SiteFooter } from "@/componentns/layout/site-footer";
+// import { NavMobile } from "@/components/layout/mobile-nav";
 
-interface LandingLayoutProps{
+interface MarketingLayoutProps{
 	children: React.ReactNode
 }
 
-export default function LandingLayout({
+export default function MarketingLayout({
   children,
-}: LandingLayoutProps): JSX.Element {
+}: MarketingLayoutProps) {
   return (
-    <div>
-     
+    <div className="flex min-h-screen flex-col">
+		
 		<main className="flex-1">{children}</main>
 	 
     </div>

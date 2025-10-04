@@ -1,9 +1,9 @@
 
 
-export default function LandingPage() {
+export default function MarketingPage() {
 	return (
 		<div className="">
-			Landing Page
+			Marketing Page
 		</div> 
 	)
 	

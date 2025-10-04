@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
 <<<<<<< HEAD
   /* config options here */ 
   
-  basePath: 'https://awishmu.github.io/saas-pbc-one/',
+  basePath: '/',
 
   /*
   // Next.js.

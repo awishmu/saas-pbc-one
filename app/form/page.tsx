@@ -2,6 +2,7 @@
 import React, { useState, FormEvent } from 'react';
 import Form from 'next/form';
 
+<<<<<<< HEAD
 type CustomFormProps = Omit<
   {
     action: NonNullable<string | ((formData: FormData) => void | Promise<void>)>;
@@ -11,6 +12,8 @@ type CustomFormProps = Omit<
   } & Omit<HTMLProps<HTMLFormElement>, "action" | "method" | "target">,
   "ref"
 >;
+=======
+>>>>>>> b053c20c4d306fee0403f14f0a87d74fb53374a3
 
 export default function Page() {
 	const [isLoading, setIsLoading] = useState<boolean>(false)
@@ -68,3 +71,7 @@ export default function Page() {
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> b053c20c4d306fee0403f14f0a87d74fb53374a3

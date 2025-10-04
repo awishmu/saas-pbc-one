@@ -39,4 +39,8 @@ yarn-error.log*
 next-env.d.ts
 
 # files
+<<<<<<< HEAD
 next.config.ts
+=======
+next.config.ts
+>>>>>>> b053c20c4d306fee0403f14f0a87d74fb53374a3

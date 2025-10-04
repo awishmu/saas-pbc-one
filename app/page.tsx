@@ -1,3 +1,4 @@
+'use client';
 import Image from "next/image";
 import logo from "@/assets/logo.svg";
 import logoDark from "@/assets/logo-dark.svg";
@@ -34,10 +35,21 @@ const DATA = {
     },
   ],
 };
+import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 
 export default async function Home() {
 // const result = await dbConnectionStatus();
-  return (
+	const router = useRouter();
+	useEffect(() => {
+		router.push('/(landing)');
+	}, [router]);
+	
+  return null; 
+  
+  //  return (
+  
+  { /*
     <div className="flex min-h-screen flex-col">
       <div className="mx-auto flex w-full max-w-md flex-1 flex-col px-5 md:max-w-lg md:px-0 lg:max-w-xl">
           <main className="flex flex-1 flex-col justify-center">
@@ -134,5 +146,6 @@ export default async function Home() {
           </footer>
       </div>
     </div>
-  );
+  */ }
+  // );
 }

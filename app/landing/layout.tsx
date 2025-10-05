@@ -9,7 +9,7 @@ interface LandingLayoutProps{
 
 export default function LandingLayout({
   children,
-}: LandingLayoutProps): JSX.Element {
+}: LandingLayoutProps) {
   return (
     <div>
      

@@ -146,41 +146,7 @@ export default function AddUserForm() {
             )}
           />
            
-          <FormField
-            control={form.control}
-            name="reset-button-0"
-            render={({ field }) => (
-              <FormItem className="col-span-12 col-start-auto flex self-end flex-col gap-2 space-y-0 items-start">
-                <FormLabel className="hidden shrink-0">Reset</FormLabel>
-
-                <div className="w-full">
-                  <FormControl>
-                    <Button
-                      key="reset-button-0"
-                      id="reset-button-0"
-                      name=""
-                      className="w-full"
-                      type="reset"
-                      variant="outline"
-                    >
-                      Reset
-                    </Button>
-                  </FormControl>
-
-                  <FormMessage />
-                </div>
-              </FormItem>
-            )}
-          />
-          <FormField
-            control={form.control}
-            name="submit-button-0"
-            render={({ field }) => (
-              <FormItem className="col-span-12 col-start-auto flex self-end flex-col gap-2 space-y-0 items-start">
-                <FormLabel className="hidden shrink-0">Submit</FormLabel>
-
-                <div className="w-full">
-                  <FormControl>
+		   
                     <Button
                       key="submit-button-0"
                       id="submit-button-0"
@@ -191,13 +157,8 @@ export default function AddUserForm() {
                     >
                       Submit
                     </Button>
-                  </FormControl>
-
-                  <FormMessage />
-                </div>
-              </FormItem>
-            )}
-          />
+           
+		   
         </div>
       </form>
     </Form>

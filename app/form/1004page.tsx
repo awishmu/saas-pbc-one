@@ -1,7 +1,7 @@
 'use client'
 import React, { useState, FormEvent } from 'react';
 import Form from 'next/form';
-
+/*
 type CustomFormProps = Omit<
   {
     action: NonNullable<string | ((formData: FormData) => void | Promise<void>)>;
@@ -11,7 +11,7 @@ type CustomFormProps = Omit<
   } & Omit<HTMLProps<HTMLFormElement>, "action" | "method" | "target">,
   "ref"
 >;
-
+*/
 export default function Page() {
 	const [isLoading, setIsLoading] = useState<boolean>(false)
 	

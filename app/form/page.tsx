@@ -145,8 +145,26 @@ export default function AddUserForm() {
               </FormItem>
             )}
           />
-           
-		   
+			<div className="col-span-12 col-start-auto flex self-end flex-col gap-2 space-y-0 items-start">
+				<div className="hidden shrink-0">Reset</div>
+
+                <div className="w-full">
+                    <Button
+                      key="reset-button-0"
+                      id="reset-button-0"
+                      name=""
+                      className="w-full"
+                      type="reset"
+                      variant="outline"
+                    >
+                      Reset
+                    </Button>
+				</div>
+			</div>
+			<div className="col-span-12 col-start-auto flex self-end flex-col gap-2 space-y-0 items-start">
+                <div className="hidden shrink-0">Submit</div>
+
+                <div className="w-full">
                     <Button
                       key="submit-button-0"
                       id="submit-button-0"
@@ -157,6 +175,9 @@ export default function AddUserForm() {
                     >
                       Submit
                     </Button>
+				</div>
+			</div>
+              
            
 		   
         </div>

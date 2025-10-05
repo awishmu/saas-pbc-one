@@ -35,7 +35,7 @@ import {
 
 export type Icon = LucideIcon;
 
-export const Icons: any = {
+export const Icons: any[] = {
   add: Plus,
   arrowRight: ArrowRight,
   arrowUpRight: ArrowUpRight,

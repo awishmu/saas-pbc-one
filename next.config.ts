@@ -3,7 +3,7 @@ import type { NextConfig } from 'next'
 const nextConfig: NextConfig = {
 
   /* config options here */ 
-  basePath: 'https://awishmu.github.io/saas-pbc-one/',
+  basePath: '/',
 
   /*
   // Next.js.

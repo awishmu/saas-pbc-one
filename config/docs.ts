@@ -1,6 +1,6 @@
 import { DocsConfig } from "types";
 
-export const docsConfig: DocsCOnfig = {
+export const docsConfig: DocsConfig = {
 	mainNav: [
 		{
 			title: "Document",

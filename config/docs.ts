@@ -4,7 +4,7 @@ export const docsConfig: DocsConfig = {
 	mainNav: [
 		{
 			title: "Document",
-			href: "/docs";
+			href: "/docs",
 		},
 		{
 			title: "Guides",

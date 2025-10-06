@@ -6,3 +6,7 @@ import { Menu, X } from "lucide-react";
 // import { useSession } from "next-auth/react";
 
 import { docsConfig } from "@/config/docs";
+
+export function NavMobile() {
+    //
+}

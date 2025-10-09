@@ -9,8 +9,8 @@ import { Icons } from "@/components/shared/icons";
 
 export default async function HeroLanding() {
   return (
-    <section className="space-y-6 py-12 sm:py-20 lg:py-20">
-      <div className="container flex max-w-5xl flex-col items-center gap-5 text-center">
+    <section className="space-y-6 py-12 sm:py-20 lg:py-20 bg-rose-500">
+      <div className="container mx-auto flex max-w-5xl flex-col items-center gap-5 text-center">
         <Link
           href="https://twitter.com/miickasmt/status/1810465801649938857"
           className={cn(

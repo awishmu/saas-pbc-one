@@ -5,7 +5,7 @@ export default function MarketingPage() {
 	return (
 		<>
 			<HeroLanding />
-			<div className="">
+			<div className="w-full bg-purple-600 m-4">
 				Marketing Page
 			</div> 
 		</>

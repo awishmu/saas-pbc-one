@@ -9,7 +9,7 @@ import {
 
 import { Icons } from "@/components/shared/icons";
 import { Button } from "@/components/ui/button";
-// import { Modal } from "@/components/ui/modal";
+import { Modal } from "@/components/ui/modal";
 import {
   Dialog,
   DialogContent,

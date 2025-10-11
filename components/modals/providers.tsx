@@ -22,7 +22,7 @@ export default function ModalProvider({ children }: { children: ReactNode }) {
 		>
 			<SignInModal />
 			{children}
-		</<ModalContext.Provider>
+		</ModalContext.Provider>
 	)
 	
 }

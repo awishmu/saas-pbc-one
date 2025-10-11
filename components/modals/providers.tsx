@@ -5,9 +5,9 @@ import { createContext, Dispatch, ReactNode, SetStateAction } from "react";
 import { useSignInModal } from "@/components/modals/sign-in-modal";
 
 export const ModalContext = createContext<{
-	setShowSignModal: Dispatch<SetStateAction<boolean>>;
+	setShowSignInModal: Dispatch<SetStateAction<boolean>>;
 }>({
-	setShowSignModal: () => {},
+	setShowSignInModal: () => {},
 });
 
 

@@ -45,10 +45,8 @@ function SignInModal({
         </div>
 
         <div className="flex flex-col space-y-4 bg-secondary/50 px-4 py-8 md:px-16">
-          <Button
-            variant="default"
-            disabled={signInClicked}
-            onClick={() => {
+			{/* 
+				onClick={() => {
               setSignInClicked(true);
               signIn("google", { redirect: false }).then(() =>
                 setTimeout(() => {
@@ -56,6 +54,12 @@ function SignInModal({
                 }, 400),
               );
             }}
+			
+			*/}
+			<Button
+            variant="default"
+            disabled={signInClicked}
+            
           >
             {signInClicked ? (
               <Icons.spinner className="mr-2 size-4 animate-spin" />

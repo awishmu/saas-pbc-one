@@ -25,7 +25,7 @@ function SignInModal ({
 	setShowSignInModal,
 }: {
 	showSignInModal: boolean;
-	setShowSignInModall Dispatch<SetStateAction<boolean>>;
+	setShowSignInModal: Dispatch<SetStateAction<boolean>>;
 }) {
 	const [signInClicked, setSignInClicked] = useState(false);
 	

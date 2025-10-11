@@ -15,7 +15,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { DocsSearch } from "@/components/docs/search";
 import { ModalContext } from "@/components/modals/providers";
 import { Icons } from "@/components/shared/icons";
-import MaxWidthWrapper from "@/components/shared/max-width/wrapper";
+import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
 
 interface NavBarProps {
     scroll?: boolean;

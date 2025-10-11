@@ -17,7 +17,7 @@ export default function ModalProvider({ children }: { children: ReactNode }) {
 	return (
 		<ModalContext.Provider
 			value={{
-				setShowSignModal,
+				setShowSignInModal,
 			}}
 		>
 			<SignInModal />

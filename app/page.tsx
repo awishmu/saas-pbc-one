@@ -37,17 +37,22 @@ const DATA = {
 };
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-
-export default async function Home() {
+export default function Home() {
+	return null;
+}
+	
+// export default async function Home() {
 // const result = await dbConnectionStatus();
+/*
 	const router = useRouter();
 	useEffect(() => {
 		router.push('/(landing)');
 	}, [router]);
 	
   return null; 
-  
-  //  return (
+*/
+
+//  return (
   
   { /*
     <div className="flex min-h-screen flex-col">
@@ -148,4 +153,4 @@ export default async function Home() {
     </div>
   */ }
   // );
-}
+// }

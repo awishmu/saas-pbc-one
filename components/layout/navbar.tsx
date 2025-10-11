@@ -27,14 +27,14 @@ export function NavBar({ scroll = false }: NavBarProps) {
 	//const { data: session, status } = useSession();
 	const { setShowSignInModal} = useContext(ModalContext);
 	
-	const selectedlayout = useSelectedLayoutSegment();
+	const selectedLayout = useSelectedLayoutSegment();
 	const documentation = selectedLayout === "docs";
 	
 	const configMap = {
 		docs: docsConfig.mainNav,
 	}
 	
-	const links = (selectedlayout && configMap[selectedLayout]) || marketingConfig.mainNav;
+	const links = (selectedLayout && configMap[selectedLayout]) || marketingConfig.mainNav;
 	
 	return (
 		<header></header>

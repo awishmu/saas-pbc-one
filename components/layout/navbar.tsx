@@ -25,10 +25,12 @@ interface NavBarProps {
 export function NavBar({ scroll = false }: NavBarProps) {
     const scrolled = useScroll(50);
 	//const { data: session, status } = useSession();
+	/*
 	const [ session, setSession ] = useState(false); 
 	const [ user, setUser ] = useState(false); 
 	const [ role, setRole ] = useState(false); 
-	// const data: session = { user: { role: "ADMIN" } } ;
+	*/
+	const data: session = null ;
 	const status = "";
 	const { setShowSignInModal} = useContext(ModalContext);
 	

@@ -25,7 +25,7 @@ interface NavBarProps {
 export function NavBar({ scroll = false }: NavBarProps) {
     const scrolled = useScroll(50);
 	//const { data: session, status } = useSession();
-	const data: session = { user: { role = "ADMIN" } } ;
+	const data: session = { user: { role: "ADMIN" } } ;
 	const status = "";
 	const { setShowSignInModal} = useContext(ModalContext);
 	
@@ -126,7 +126,5 @@ export function NavBar({ scroll = false }: NavBarProps) {
 				</div>
 			</MaxWidthWrapper>
 		</header>
-	)
-	
-	
+	)	
 }

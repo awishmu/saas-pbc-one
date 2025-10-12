@@ -1,7 +1,7 @@
 
-// import "@/styles/globals.css";
+import "@/styles/globals.css";
 
-// import { fontGeist, fontHeading, fontSans, fontUrban } from "@/assets/fonts";
+import { fontGeist, fontHeading, fontSans, fontUrban } from "@/assets/fonts";
 // import { SessionProvider } from "next-auth/react";
 import { ThemeProvider } from "next-themes";
 

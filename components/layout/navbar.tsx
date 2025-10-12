@@ -1,6 +1,6 @@
 "use client"
 
-import { useContext } from "react";
+import { useState, useContext } from "react";
 import Link from "next/link";
 import { useSelectedLayoutSegment } from "next/navigation";
 //import { useSession } from "next-auth/react";
@@ -25,6 +25,7 @@ interface NavBarProps {
 export function NavBar({ scroll = false }: NavBarProps) {
     const scrolled = useScroll(50);
 	//const { data: session, status } = useSession();
+	const [ session, setSession ] = useState([]); 
 	const data: session = { user: { role: "ADMIN" } } ;
 	const status = "";
 	const { setShowSignInModal} = useContext(ModalContext);

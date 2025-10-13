@@ -26,7 +26,6 @@ export function NavBar({ scroll = false }: NavBarProps) {
     const scrolled = useScroll(50);
 	
 	//const session = {user : { role: "ADMIN", }, } ;	
-	// const session = {user : { role: null, }, } ;	
 	const session = null;
 	const user = null;
 	const role = null;

@@ -14,7 +14,7 @@ export default function MaxWithWrapper({
 	return (
 		<div
 			className={cn(
-				"container",
+				"container flex justify-center item-center mx-auto",
 				large ? "max-w-screen-2xl" : "max-w-6xl",
 				className,
 			)}

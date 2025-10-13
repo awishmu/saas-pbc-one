@@ -121,7 +121,7 @@ export function NavBar({ scroll = false }: NavBarProps) {
 							<Icons.arrowRight className="size-4" />
 						</Button>
 					) : (
-						<skeleton className="hidden h-9 w-28 rounded-full lg:flex" />
+						<Skeleton className="hidden h-9 w-28 rounded-full lg:flex" />
 					)}
 				</div>
 			</MaxWidthWrapper>

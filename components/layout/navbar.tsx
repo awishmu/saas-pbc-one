@@ -1,6 +1,6 @@
 "use client"
 
-import { useContext } from "react";
+import { useState, useContext } from "react";
 import Link from "next/link";
 import { useSelectedLayoutSegment } from "next/navigation";
 //import { useSession } from "next-auth/react";
@@ -24,9 +24,15 @@ interface NavBarProps {
 
 export function NavBar({ scroll = false }: NavBarProps) {
     const scrolled = useScroll(50);
+<<<<<<< HEAD
 	//const { data: session, status } = useSession();
 	const session.user.role = "ADMIN";
 	const session = "";
+=======
+		const session = {user : { role: "ADMIN", }, } ;	
+	const status = "unauthenticated";
+	
+>>>>>>> db9db190f0a7aafa9489e81467881c073ca718bc
 	const { setShowSignInModal} = useContext(ModalContext);
 	
 	const selectedLayout = useSelectedLayoutSegment();
@@ -97,7 +103,7 @@ export function NavBar({ scroll = false }: NavBarProps) {
 					) : null}
 					{session ? (
 						<Link
-							href={session.user.role === "ADMIN" ? "/admin" : "/dashboard"}
+							href={session.user?.role === "ADMIN" ? "/admin" : "/dashboard"}
 							className="hidden md:block"
 						>
 							<Button
@@ -121,12 +127,10 @@ export function NavBar({ scroll = false }: NavBarProps) {
 							<Icons.arrowRight className="size-4" />
 						</Button>
 					) : (
-						<skeleton className="hidden h-9 w-28 rounded-full lg:flex" />
+						<Skeleton className="hidden h-9 w-28 rounded-full lg:flex" />
 					)}
 				</div>
 			</MaxWidthWrapper>
 		</header>
-	)
-	
-	
+	)	
 }

@@ -24,8 +24,8 @@ interface NavBarProps {
 
 export function NavBar({ scroll = false }: NavBarProps) {
     const scrolled = useScroll(50);
-		const datas = {user : { role: "ADMIN" }} ;
-		const session = JSON.parse(datas);
+		const session = {user : { role: "ADMIN", }, } ;
+	
 	
 	const status = "";
 	const { setShowSignInModal} = useContext(ModalContext);

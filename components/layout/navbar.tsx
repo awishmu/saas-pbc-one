@@ -24,15 +24,14 @@ interface NavBarProps {
 
 export function NavBar({ scroll = false }: NavBarProps) {
     const scrolled = useScroll(50);
-<<<<<<< HEAD
-	//const { data: session, status } = useSession();
-	const session.user.role = "ADMIN";
-	const session = "";
-=======
-		const session = {user : { role: "ADMIN", }, } ;	
-	const status = "unauthenticated";
+
+	//const session = {user : { role: "ADMIN", }, } ;	
+	// const session = {user : { role: null, }, } ;	
+	const session = null;
+	const user = null;
+	const role = null;
 	
->>>>>>> db9db190f0a7aafa9489e81467881c073ca718bc
+	const status = "unauthenticated";
 	const { setShowSignInModal} = useContext(ModalContext);
 	
 	const selectedLayout = useSelectedLayoutSegment();

@@ -33,7 +33,7 @@ export function NavBar({ scroll = false }: NavBarProps) {
 	const [ role, setRole ] = useState(false); 
 	*/
 	if(session) {
-		const data: session = {user? : { role?: "ADMIN" }};
+		const data: session = {user : { role: "ADMIN" }};
 	}
 	const status = "";
 	const { setShowSignInModal} = useContext(ModalContext);
@@ -106,7 +106,7 @@ export function NavBar({ scroll = false }: NavBarProps) {
 					) : null}
 					{session ? (
 						<Link
-							href={session.user.role === "ADMIN" ? "/admin" : "/dashboard"}
+							href={session?.user?.role === "ADMIN" ? "/admin" : "/dashboard"}
 							className="hidden md:block"
 						>
 							<Button

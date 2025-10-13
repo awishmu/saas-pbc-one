@@ -33,7 +33,7 @@ export function NavBar({ scroll = false }: NavBarProps) {
 	const [ role, setRole ] = useState(false); 
 	*/
 	if(session) {
-		const data: session = {user : { role: "ADMIN" }};
+		const session = {user : { role: "ADMIN" }};
 	}
 	const status = "";
 	const { setShowSignInModal} = useContext(ModalContext);

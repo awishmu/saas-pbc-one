@@ -26,12 +26,10 @@ export function NavBar({ scroll = false }: NavBarProps) {
     const scrolled = useScroll(50);
 	//const { data: session, status } = useSession();
 	
-	const [ session, setSession ] = useState(false);
-	/*
-	const data: session = null ;
+	const [ session, setSession ] = useState(false); 
 	const [ user, setUser ] = useState(false); 
 	const [ role, setRole ] = useState(false); 
-	*/
+	
 	if(session) {
 		const session = {user : { role: "ADMIN" }};
 	}

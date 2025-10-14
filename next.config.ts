@@ -16,6 +16,20 @@ const nextConfig: NextConfig = {
     return type
   }
   */
+
+//"https://randomuser.me/api/portraits/men/4.jpg"
+
+	images: {
+		remotePatterns: [
+			{
+				protocol: 'https',
+				hostname: 'randomuser.me',
+				port: '',
+				pathname: '/api/**',
+				search: '',
+			},
+		],
+	},
 }
  
 export default nextConfig

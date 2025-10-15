@@ -10,7 +10,7 @@ export default function Features() {
   return (
     <section>
       <div className="pb-6 pt-28">
-        <MaxWidthWrapper>
+        <MaxWidthWrapper className="flex flex-col">
           <HeaderSection
             label="Features"
             title="Discover all features."

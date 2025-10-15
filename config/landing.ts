@@ -1,3 +1,4 @@
+
 import { FeatureLdg, InfoLdg, TestimonialType } from "types";
 
 export const infos: InfoLdg[] = [
@@ -5,7 +6,7 @@ export const infos: InfoLdg[] = [
     title: "Empower your projects",
     description:
       "Unlock the full potential of your projects with our open-source SaaS platform. Collaborate seamlessly, innovate effortlessly, and scale limitlessly.",
-    image: "/_static/illustrations/work-from-home.jpg",
+    image: "/illustrations/in-home-tech-jobs.jpg",
     list: [
       {
         title: "Collaborative",

@@ -15,6 +15,16 @@ const nextConfig: NextConfig = {
     type.isRSC = isUsingAppDir
     return type
   }
+  
+  //
+  
+			{
+				protocol: 'http',
+				hostname: 'localhost',
+				port: '3000',
+				pathname: '/assets/**',
+				search: '',
+			},
   */
 
 //"https://randomuser.me/api/portraits/men/4.jpg"

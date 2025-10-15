@@ -5,6 +5,7 @@ import Powered from "@/components/sections/powered";
 import BentoGrid from "@/components/sections/bentogrid"; 
 import InfoLanding from "@/components/sections/info-landing";
 import Features from "@/components/sections/features"; 
+import Testimonials from "@/components/sections/testimonials"; 
 
 export default function MarketingPage() {
 	return (
@@ -15,6 +16,7 @@ export default function MarketingPage() {
 			<BentoGrid />
 			<InfoLanding data={infos[0]} reverse={true}/>
 			<Features />
+			<Testimonials />
 			<div className="w-full bg-purple-600 m-4">
 				Marketing Page
 			</div> 

@@ -4,7 +4,7 @@ import PreviewLanding from "@/components/sections/preview-landing";
 import Powered from "@/components/sections/powered"; 
 import BentoGrid from "@/components/sections/bentogrid"; 
 import InfoLanding from "@/components/sections/info-landing";
-
+import Features from "@/components/sections/features"; 
 
 export default function MarketingPage() {
 	return (
@@ -13,7 +13,8 @@ export default function MarketingPage() {
 			<PreviewLanding />
 			<Powered />
 			<BentoGrid />
-			<InfoLanding data={infos[0]} reverse={[true]}/>
+			<InfoLanding data={infos[0]} reverse={true}/>
+			<Features />
 			<div className="w-full bg-purple-600 m-4">
 				Marketing Page
 			</div> 
